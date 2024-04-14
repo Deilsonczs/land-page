@@ -59,16 +59,16 @@ section {
     cursor: default;
 }
 
-.logoindex {
+/* .logoindex {
     left: 30px;
     padding: 10px;
-    display: block;
+   display: block; 
     max-width:100px;
     max-height:90px;
     width: auto;
     height: auto;
     position: absolute;
-}
+} */
 
 .navbar a {
     font-size: 1.9rem;
@@ -436,6 +436,8 @@ transform: scale(1.02);
     #menu-icon {
         display: block;
     }
+
+   
        
     .navbar {
         position: absolute;
@@ -503,6 +505,8 @@ transform: scale(1.02);
     .portfolio-container {
         grid-template-columns: 1fr;
     }
+
+    
 }
 
 @media (max-width: 450px) {
@@ -513,6 +517,8 @@ transform: scale(1.02);
     .contact form .input-box input {
         width: 100%;
     }
+
+    
 }
 
 @media (max-width: 365px) {
@@ -532,4 +538,6 @@ transform: scale(1.02);
         text-align: center;
         margin-top: 2rem; 
     }
+
+    
 }
