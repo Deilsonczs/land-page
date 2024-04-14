@@ -83,11 +83,12 @@ display: none;
     align-items: center;
 }
 
-.home-img img{
+ .home-img img {
     width: 35vw;
-    /* animation e keyframes criado apos a animacao scrool reveal no javascript */
-    animation: floatImage 4s ease-in-out infinite;
 }
+   /*  animation e keyframes criado apos a animacao scrool reveal no javascript 
+    animation: floatImage 4s ease-in-out infinite; 
+  */
 
 @keyframes floatImage {
     0%{
