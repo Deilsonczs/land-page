@@ -59,6 +59,17 @@ section {
     cursor: default;
 }
 
+.logoindex {
+    left: 30px;
+    padding: 10px;
+    display: block;
+    max-width:100px;
+    max-height:90px;
+    width: auto;
+    height: auto;
+    position: absolute;
+}
+
 .navbar a {
     font-size: 1.9rem;
     color: var(--text-color);
