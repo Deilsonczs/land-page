@@ -39,7 +39,7 @@ section {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
+    padding: 1rem 9%;
     background: var(--bg-color);
     display: flex;
     justify-content: space-between;
@@ -70,7 +70,7 @@ section {
 .navbar a {
     font-size: 1.9rem;
     color: var(--text-color);
-    margin-left: 4rem;
+    margin-left: 3rem;
     transition: .3s;
 }
 
