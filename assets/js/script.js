@@ -121,21 +121,3 @@ addEventOnElements(hoverElements, "mouseout", function () {
 });
 
 
-/**
- * Custom poput
- */
-
-document.addEventListener("DOMContentLoaded", function() {
-  var popout = document.getElementById("popout");
-  var closeButton = document.getElementById("closePopout");
-
-  setTimeout(function() {
-    popout.classList.add("show"); // Adiciona a classe "show" após 3 segundos
-  }, 3000);
-
-  if (closeButton) {
-    closeButton.addEventListener("click", function() {
-      popout.style.display = "none"; // Oculta o popout ao clicar no botão de fechar
-    });
-  }
-});
