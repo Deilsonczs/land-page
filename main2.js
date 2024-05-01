@@ -48,7 +48,7 @@
     function filterCards() {
       if (filterElement.value !== '') {
         for (let card of cards) {
-          let title = card.querySelector('h2').textContent.toLowerCase();
+          let title = card.querySelector('p').textContent.toLowerCase();
           let filterText = filterElement.value.toLowerCase();
           if (!title.includes(filterText)) {
             card.style.display = "none";
