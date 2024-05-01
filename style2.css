@@ -223,6 +223,8 @@ html {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+
+  
 }
 
 #search-button:hover, #clear-button:hover {
