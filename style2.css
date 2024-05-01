@@ -359,7 +359,7 @@ li .header {
 
 li i {
   font-size: 2.4rem;
-
+  align-items: center;
   background-color: var(--primary-400);
   color: var(--gray-900);
   border-radius: 50%;
