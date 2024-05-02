@@ -231,19 +231,6 @@ html {
   background-color: #0056b3;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .w-100 { width: 100%; }
 
 .section { padding-block: var(--section-spacing); }
@@ -258,11 +245,6 @@ html {
   color: var(--text-purple);
 }
 
-
-
-
-
-
 .sr-only {
   position: absolute;
   width: 1px;
@@ -274,8 +256,6 @@ html {
   border-width: 0;
   white-space: nowrap;
 }
-
-
 
  header {
   text-align: center;
@@ -289,6 +269,7 @@ html {
 
 h1 {
   opacity: .9;
+  text-align: center;
 }
 
 .input-wrapper {
