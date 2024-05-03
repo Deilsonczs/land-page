@@ -405,8 +405,10 @@ li a:hover {
   }
 
    /**
-   * teste
+   * teste apagar depois
    */
+/* Adicione este bloco de regras CSS dentro da regra de media query para telas menores */
+
 /* Adicione este bloco de regras CSS dentro da regra de media query para telas menores */
 
 @media only screen and (max-width: 768px) {
@@ -416,8 +418,6 @@ li a:hover {
 
   main {
     padding-inline: 1.6rem; /* Reduz o preenchimento horizontal para telas menores */
-    max-width: 100%; /* Garante que o conteúdo não ultrapasse a largura da tela */
-    box-sizing: border-box; /* Garante que a largura inclua padding e bordas */
   }
 
   ul {
@@ -432,14 +432,10 @@ li a:hover {
   .input-wrapper input {
     padding: 1rem; /* Reduz o preenchimento do input para telas menores */
     font-size: 14px; /* Reduz o tamanho do texto no input para telas menores */
-    max-width: 100%; /* Garante que o input não ultrapasse a largura da tela */
-    box-sizing: border-box; /* Garante que a largura inclua padding e bordas */
   }
 
   .btn {
     font-size: 14px; /* Reduz o tamanho do texto do botão para telas menores */
-    max-width: 100%; /* Garante que o botão não ultrapasse a largura da tela */
-    box-sizing: border-box; /* Garante que a largura inclua padding e bordas */
   }
 
   p {
@@ -448,6 +444,7 @@ li a:hover {
     margin-bottom: 1rem; /* Adiciona um espaço na parte inferior do parágrafo */
   }
 }
+
 
 
 
