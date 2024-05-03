@@ -411,7 +411,7 @@ li a:hover {
 
 /* Adicione este bloco de regras CSS dentro da regra de media query para telas menores */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 430px) {
   body {
     font-size: 14px; /* Reduz o tamanho da fonte para telas menores */
   }
