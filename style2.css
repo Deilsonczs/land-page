@@ -399,7 +399,43 @@ li a:hover {
     z-index: 6;
     transition: var(--transition-1);
     transition-property: opacity, transform;
+
+
+
   }
+
+   /**
+   * teste
+   */
+
+   /* Adicione este bloco de regras CSS dentro da regra de media query para telas menores */
+
+@media (max-width: 768px) {
+  body {
+    font-size: var(--fontSize-5); /* Reduz o tamanho da fonte para telas menores */
+  }
+
+  main {
+    padding-inline: 1.6rem; /* Reduz o preenchimento horizontal para telas menores */
+  }
+
+  ul {
+    grid-template-columns: 1fr; /* Altera para uma coluna para telas menores */
+  }
+
+  li {
+    padding: 2rem; /* Reduz o preenchimento dos itens da lista para telas menores */
+  }
+
+  .input-wrapper input {
+    padding: 1rem; /* Reduz o preenchimento do input para telas menores */
+  }
+
+  .btn {
+    font-size: var(--fontSize-7); /* Reduz o tamanho do texto do botão para telas menores */
+  }
+}
+
 
   body:hover .cursor { opacity: 0.5; }
 
