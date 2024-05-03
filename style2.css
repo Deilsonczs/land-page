@@ -407,12 +407,11 @@ li a:hover {
    /**
    * teste
    */
+/* Adicione este bloco de regras CSS dentro da regra de media query para telas menores */
 
-   /* Adicione este bloco de regras CSS dentro da regra de media query para telas menores */
-
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   body {
-    font-size: var(--fontSize-5); /* Reduz o tamanho da fonte para telas menores */
+    font-size: 14px; /* Reduz o tamanho da fonte para telas menores */
   }
 
   main {
@@ -424,17 +423,20 @@ li a:hover {
   }
 
   li {
-    padding: 2rem; /* Reduz o preenchimento dos itens da lista para telas menores */
+    padding: 1.6rem; /* Reduz o preenchimento dos itens da lista para telas menores */
+    font-size: 14px; /* Reduz o tamanho do texto nos itens da lista para telas menores */
   }
 
   .input-wrapper input {
     padding: 1rem; /* Reduz o preenchimento do input para telas menores */
+    font-size: 14px; /* Reduz o tamanho do texto no input para telas menores */
   }
 
   .btn {
-    font-size: var(--fontSize-7); /* Reduz o tamanho do texto do botão para telas menores */
+    font-size: 14px; /* Reduz o tamanho do texto do botão para telas menores */
   }
 }
+
 
 
   body:hover .cursor { opacity: 0.5; }
