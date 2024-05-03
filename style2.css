@@ -416,6 +416,8 @@ li a:hover {
 
   main {
     padding-inline: 1.6rem; /* Reduz o preenchimento horizontal para telas menores */
+    max-width: 100%; /* Garante que o conteúdo não ultrapasse a largura da tela */
+    box-sizing: border-box; /* Garante que a largura inclua padding e bordas */
   }
 
   ul {
@@ -430,12 +432,17 @@ li a:hover {
   .input-wrapper input {
     padding: 1rem; /* Reduz o preenchimento do input para telas menores */
     font-size: 14px; /* Reduz o tamanho do texto no input para telas menores */
+    max-width: 100%; /* Garante que o input não ultrapasse a largura da tela */
+    box-sizing: border-box; /* Garante que a largura inclua padding e bordas */
   }
 
   .btn {
     font-size: 14px; /* Reduz o tamanho do texto do botão para telas menores */
+    max-width: 100%; /* Garante que o botão não ultrapasse a largura da tela */
+    box-sizing: border-box; /* Garante que a largura inclua padding e bordas */
   }
 }
+
 
 
 
