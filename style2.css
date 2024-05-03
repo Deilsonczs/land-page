@@ -441,6 +441,12 @@ li a:hover {
     max-width: 100%; /* Garante que o botão não ultrapasse a largura da tela */
     box-sizing: border-box; /* Garante que a largura inclua padding e bordas */
   }
+
+  p {
+    font-size: 14px; /* Reduz o tamanho do texto do parágrafo para telas menores */
+    line-height: 1.6; /* Define a altura da linha para o parágrafo */
+    margin-bottom: 1rem; /* Adiciona um espaço na parte inferior do parágrafo */
+  }
 }
 
 
