@@ -1,32 +1,66 @@
 <!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" type="text/css" href="teste style2.css">
-  <script src="https://kit.fontawesome.com/6d6da36ec7.js" crossorigin="anonymous"></script>
-</head>
-<body>
-  <input type="checkbox" id="check">
-  <nav>
-    <div class="icon">Design <b style="color: red;">P</b>ro</div>
-    <div class="search_box">
-      <input type="search" placeholder="Search here">
-      <span class="fa fa-search"></span>
-    </div>
-    <ol>
-      <li><a href="#">home</a></li>
-      <li><a href="#">contact</a></li>
-      <li><a href="#">services</a></li>
-      <li><a href="#">about</a></li>
-      <li><a href="#">login here</a></li>
-    </ol>
-    <label for="" class="bar"></label>
-    <span class="fa fa-bars" id="bars"></span>
-    <span class="fa fa-times" id="times"></span>
-  </nav>
-  <section></section>
- 
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation Bar with Search Box</title>
+    <link rel="stylesheet" href="teste style2.css" />
+    <!-- Unicons CSS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+   <script src="teste barra.js" defer></script>
+  </head>
+  <body>
+    <nav class="nav">
+      <i class="uil uil-bars navOpenBtn"></i>
+      <a href="#" class="logo">CodingLab</a>
+
+      <ul class="nav-links">
+        <i class="uil uil-times navCloseBtn"></i>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+
+      <i class="uil uil-search search-icon" id="searchIcon"></i>
+      <div class="search-box">
+        <i class="uil uil-search search-icon"></i>
+        <input type="text" placeholder="Search here..." />
+      </div>
+      </nav>
+      <!-- services section design -->
+<section class="services" id="services">
+  <h2 class="heading">Nossos <span>Serviços</span></h2>
+
+  <div class="services-container">
+
+      <div class="services-box">
+        <i class="ph-question"></i>
+          <h3>Pergunta 1</h3>
+          <p>Leia o trecho abaixo:
+            “Gerentes com responsabilidades sobre software, assim como gerentes da maioria das áreas, frequentemente estão sob pressão para manter os orçamentos evitar deslizes nos cronogramas e elevar a qualidade. Como uma pessoa que está se afogando e se agarra à crença em um mito do software para aliviar a pressão (mesmo que temporariamente)”. 
+            Fonte: PRESSMAN, Roger S; MAXIM, Bruce R. Engenharia de Software: Uma Abordagem Profissional. 8 ed. Porto Alegre: Amgh, 2016, p. 23.
+            Considerando essas informações e o conteúdo estudado, é possível afirmar que o trecho acima está relacionado ao:</p>
+          <a href="#" class="btn">Consulte Mais informações</a>
+      </div>
+
+      <div class="services-box">
+          <i class='bx bxs-paint' ></i>
+          <h3>Design Gráfico</h3>
+          <p>criamos toda a parte visual de materiais de divulgação.Produzindo logotipos, imagens, textos, diagramações, animações e infográficos que busca transformar sua ideia em algo visual e chamativo.</p>
+           <a href="#" class="btn">Consulte Mais informações</a>
+      </div>
+
+      <div class="services-box">
+          <i class='bx bx-edit'></i>
+          <h3>Edição de imagens</h3>
+          <p>Realizamos a confecção de banners para eventos, Folders, flyers, catálogos, curriculos,recorte e tratamento de imagens,transformando uma simples fotografia em uma obra única..</p>
+          <a href="#" class="btn">Consulte Mais informações</a>
+      </div>
+  </div>
+</section>
+  </body>
 </html>
