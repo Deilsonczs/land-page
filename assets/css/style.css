@@ -1192,3 +1192,14 @@ header input {
 #search-button:hover, #clear-button:hover {
   background-color: #0056b3;
 }
+
+
+#fb-root {
+  top: 50%;
+  left: 50%;
+  margin-top: 2rem;
+  position: relative;
+  background-color: var(--bg-oxford-blue);
+  width:100%;
+}
+
