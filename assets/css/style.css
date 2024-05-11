@@ -1199,7 +1199,6 @@ header input {
   left: 50%;
   margin-top: 2rem;
   position: relative;
-  background-color: var(--bg-oxford-blue);
+  background-color:#7a00b39c;
   width:100%;
 }
-
