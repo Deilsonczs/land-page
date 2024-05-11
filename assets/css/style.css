@@ -1199,6 +1199,10 @@ header input {
   left: 50%;
   margin-top: 2rem;
   position: relative;
-  background-color:#7a00b39c;
+  
   width:100%;
+}
+
+.testet{
+  background-color:whitesmoke;
 }
