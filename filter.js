@@ -26,11 +26,11 @@ document.addEventListener('DOMContentLoaded', () => {
   function display(result) {
     if (result.length) {
       const content = result.map((q) => {
-        return `<li>${q.pergunta} <br><b>Resposta:</b> ${q.resposta}</li>`;
+        return `<li>${q.pergunta}<div class="resposta"><b>Resposta:</b> ${q.resposta}</div></li>`;
       }).join("");
       resultsBox.innerHTML = `<ul>${content}</ul>`;
     } else {
-      resultsBox.innerHTML = '';
+      resultsBox.innerHTML = '<p class="no-results">Questão não encontrada</p>';
     }
   }
 });
