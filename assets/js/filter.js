@@ -19,16 +19,16 @@ document.addEventListener('DOMContentLoaded', () => {
         return q.pergunta.toLowerCase().includes(input.toLowerCase());
       });
       console.log(result);
+      display(result);
+    } else {
+      resultsBox.innerHTML = '';  // Limpar os resultados quando o campo de entrada estiver vazio
     }
-    display(result, input);
   }
 
-  function display(result, input) {
-    if (input.length === 0) {
-      resultsBox.innerHTML = '';
-    } else if (result.length) {
+  function display(result) {
+    if (result.length) {
       const content = result.map((q) => {
-        return `<li>${q.pergunta}<div class="resposta"><b>Resposta:</b> ${q.resposta}</div></li>`;
+        return `<li><b>Pergunta:</b> ${q.pergunta}<div class="resposta"><b>Resposta:</b> ${q.resposta}</div></li>`;
       }).join("");
       resultsBox.innerHTML = `<ul>${content}</ul>`;
     } else {
@@ -48,4 +48,3 @@ function openModal(){
     }
   });
 }
-
