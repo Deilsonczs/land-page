@@ -13,18 +13,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
   inputBox.onkeyup = function() {
     let result = [];
-    let input = inputBox.value;
+    let input = inputBox.value.trim();
     if (input.length) {
       result = questoes.filter((q) => {
         return q.pergunta.toLowerCase().includes(input.toLowerCase());
       });
       console.log(result);
     }
-    display(result);
+    display(result, input);
   }
 
-  function display(result) {
-    if (result.length) {
+  function display(result, input) {
+    if (input.length === 0) {
+      resultsBox.innerHTML = '';
+    } else if (result.length) {
       const content = result.map((q) => {
         return `<li>${q.pergunta}<div class="resposta"><b>Resposta:</b> ${q.resposta}</div></li>`;
       }).join("");
@@ -34,3 +36,16 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 });
+
+function openModal(){
+  const modal = document.getElementById('modal-container');
+  modal.classList.add('mostrar');
+
+  modal.addEventListener('click', (e) => {
+    if (e.target.id == 'modal-container' || e.target.id == "fechar") {
+      modal.classList.remove('mostrar');
+      localStorage.fechaModal = 'modal-container';
+    }
+  });
+}
+
