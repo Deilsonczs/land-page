@@ -1,11 +1,333 @@
 [
   {
-    "pergunta": "Leia o excerto a seguir: Alguns exemplos de indicadores de processo incluem quantidade de erros descobertos antes da entrega do software, defeitos entregues aos usuários finais, produtos de trabalho entregues, esforço humano despendido, tempo gasto, dentre outros. Fonte: MARTINS, J. C. C. Técnica para Gerenciamento de projetos de software. Rio de Janeiro: Brasport, 2007. p. 25. considerando essas informações e o conteúdo estudado sobre gerenciamento de defeitos, é possível afirmar que uma falha é proveniente de:",
-    "resposta": "UMA DISPARIDADE ENTRE A SOLICITAÇÃO DO USUARIO E O DESEMPENHO APRESENTADO PELA APLICAÇÃO EXECUTÁVEL."
+    "pergunta": "A arquitetura de software corporativa nasceu em meados dos anos 1980 e 1990 para suprir uma necessidade muito forte das empresas e projetos que estavam sendo desenvolvidos. Nesta época, começaram a surgir os primeiros frameworks arquiteturais no mercado.Considerando essas informações e o conteúdo estudado sobre framework arquitetural, analise as afirmativas a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s):I. (  ) O framework criado por Zachman foi o primeiro framework arquitetural publicado e serviu de base para vários outros frameworks.II. (  ) O DoDAF é um framework criado para o Ministério de Defesa norte-americano e teve como base o framework Zachman.III. (  ) O framework EAP foi o primeiro framework arquitetural publicado e serviu de base para vários outros frameworks.IV. (  ) O TOGAF é um framework criado pelo Governo Federal americano e é um dos frameworks mais conhecidos e utilizados.Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "V, V, F, F."
   },
   {
-    "pergunta": "arquivo de teste: Alguns exemplos de indicadores de processo incluem quantidade de erros descobertos antes da entrega do software, defeitos entregues aos usuários finais, produtos de trabalho entregues, esforço humano despendido, tempo gasto, dentre outros. Fonte: MARTINS, J. C. C. Técnica para Gerenciamento de projetos de software. Rio de Janeiro: Brasport, 2007. p. 25. considerando essas informações e o conteúdo estudado sobre gerenciamento de defeitos, é possível afirmar que uma falha é proveniente de:",
-    "resposta": "UMA DISPARIDADE ENTRE A SOLICITAÇÃO DO USUARIO E O DESEMPENHO APRESENTADO PELA APLICAÇÃO EXECUTÁVEL NO TESTE."
+    "pergunta": "A arquitetura de software é uma disciplina cada vez mais utilizada no processo de desenvolvimento de aplicação e soluções de software. Nesse sentido, os requisitos não funcionais são fatores extremamente importantes para a definição e desenho da arquitetura de software e para o entendimento de como deve ser avaliada a qualidade do software frente aos stakeholders e partes envolvidas.Considerando essas informações e o conteúdo estudado sobre requisitos não funcionais, analise as afirmativas a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s):I. ( ) Performance é um tipo de requisito não funcional.II. ( ) Manutenibilidade é um tipo de requisito não funcional.III. ( ) Usabilidade é um tipo de requisito funcional.IV. ( ) Confiabilidade é um requisito de negócio que é identificado junto ao usuário. ",
+    "resposta": "V, V, F, F."
+  },
+  {
+    "pergunta": "A automação, dentro de uma análise arquitetural, é utilizada a fim de se definir qual nível de automação se pode alcançar. Dessa forma, podemos identificar 3 tipos de automação dentro do contexto de formalização: Manual, Parcialmente Automática e Totalmente Automática.Considerando as informações apresentadas e o conteúdo estudado sobre análise arquitetural e automação, analise as afirmativas a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s).I. (  ) Automação Totalmente Automática é uma técnica que pode ser aplicada em qualquer análise arquitetural, mesmo com baixo grau de completude.II. (  ) Automação parcialmente automática pode ser utilizada na maioria das análises e é composta por uma parte de software e outra parte de interação humana.III. (  ) Automação manual é aplicada, geralmente, em análises baseadas em cenários, nos quais a automatização é complexa.IV. (  ) Tanto a automação totalmente automática, como a automação parcialmente automática, podem ser aplicadas em qualquer análise arquiteturalAgora, assinale a alternativa que apresenta a sequência correta:.",
+    "resposta": "F, V, V, F."
+  },
+  {
+    "pergunta": "A avaliação arquitetural é uma atividade complexa que demanda esforço e uma excelente compreensão de informações e do processo arquitetural. Para que sua realização possa ser melhor aproveitada, há algumas metodologias disponibilizadas de forma que se possa direcionar melhor a sua utilização no ciclo de desenvolvimento de um software.Considerando essas informações e o conteúdo estudado sobre projetos arquiteturais, analise as metodologias de avaliação arquitetural disponíveis a seguir e associe-as com suas respectivas características.1) SAAM.2) ATAM.3) ASAAM.(  ) Método de avaliação baseado em trade-offs, utilizando como base as definições e/ou decisões técnicas e gerenciais.(  ) É uma metodologia específica para ser utilizada na avaliação de estruturas orientadas a aspectos (SOA).(  ) Método de avaliação baseado na investigação e descrição dos cenários presentes na aplicação, que podem ser diretos ou indiretos.Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "2, 3, 1. "
+  },
+  {
+    "pergunta": "A formalização de uma análise arquitetural é utilizada a fim de se definir qual nível de detalhe se deseja alcançar dentro da análise. Dessa forma, podemos identificar 3 tipos de grau dentro do contexto de formalização: Informais, Semi-Formais e Formais.Baseando-se na informação apresentada e no conteúdo estudado sobre análise arquitetural e seus tipos de modelos, analise os conceitos de formalidade e automação na análise arquitetural a seguir e associe-os com suas definições:1) Modelos Informais.2) Modelos Semi-Formais.3) Modelos Formais.(  ) Prezam pela formalidade e automatização e são mais utilizados por stakeholders mais técnicos.(  ) Modelos que estão sujeitos a verificações manuais e que possuem ambiguidade e falta de detalhes.(  ) Define a maioria dos modelos utilizados, que possuem precisão parcial e podem ser aplicados em análises manuais e automáticas.Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "3, 1, 2. "
+  },
+  {
+    "pergunta": "A modelagem arquitetural é uma abordagem muito utilizada e importante no processo de desenvolvimento de uma arquitetura de software. Dentro dessa abordagem, temos o mapeamento e o levantamento de várias informações importantes que serão utilizadas para nortear o desenvolvimento do software seguinte ou, tecnicamente falando, a arquitetura proposta.Considerando essas informações e o conteúdo estudado sobre as estruturas de modelagem arquitetural, analise as afirmativas a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s):I. ( ) Decisões Arquiteturais são informações capturadas em modelos arquiteturais. II. ( ) Decisões Técnicas são informações capturadas em modelos arquiteturais.III. ( ) Informações de Custos são informações capturadas em modelos arquiteturais. IV. ( ) Informações sobre estruturas de times são informações capturadas em modelos arquiteturais. ",
+    "resposta": "V, V, F, F. "
+  },
+  {
+    "pergunta": "Além da modelagem arquitetural, é muito importante que se identifiquem e realizem a modelagem dos estilos arquiteturais, que irão utilizar as decisões arquiteturais como base de sua construção. A utilização desse tipo de mapeamento traz grandes benefícios e vantagens para o processo como um todo como: visão mais clara do projeto, identificação dos pontos críticos da arquitetura, visão clara das decisões técnicas e arquiteturais, entre outras.Considerando essas informações e o conteúdo estudado sobre as estruturas de modelagem arquitetural, analise as afirmativas a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s):I. ( ) A modelagem dos estilos arquiteturais dificulta a criação de um mapa evolutivo arquitetural.II. ( ) A modelagem dos estilos arquiteturais traz, em todos os casos, um alto custo de implementação em relação a modelagem arquitetural.III. ( )  ",
+    "resposta":"F, F, V, V. "
+  },
+  {
+    "pergunta": "Ao desenvolver um design de uma arquitetura de uma solução de software, o arquiteto deve desenvolver uma série de artefatos que pertencem à fase de design e definição da arquitetura.Considerando essas informações e o conteúdo estudado sobre arquitetura de software, analise as afirmativas a seguir:I. A definição dos requisitos de segurança é um artefato de responsabilidade do arquiteto de softwares.II. O documento de requisitos funcionais é um dos artefatos que devem ser entregues pelo arquiteto.III. O plano de implantação deve ser desenvolvido e entregue pelo arquiteto de softwares.IV. As definições de padrões tecnológicos da arquitetura e do projeto são realizadas pelo arquiteto de software.Está correto apenas o que se afirma em: ",
+    "resposta": "I, III e IV. "
+  },
+  {
+    "pergunta": "Ao desenvolver um design de uma arquitetura em uma solução de software, o arquiteto deve levar em consideração todas as decisões levantadas e as definições técnicas importantes para a modelagem arquitetural. Nesse ponto, quando as decisões técnicas e arquiteturais são tomadas, o arquiteto tem a possibilidade de utilizar as vantagens de se realizar a modelagem de um estilo arquitetural.Considerando essas informações e o conteúdo estudado sobre a modelagem dos estilos arquiteturais, analise as afirmativas a seguir. I. Um estilo arquitetural pode ser resumido em um conjunto de decisões arquiteturais que serão aplicadas em um determinado contexto de solução a ser desenvolvida.II. O estilo arquitetural é uma forma descentralizada de se manter uma referência aos conceitos arquiteturais.III. Os estilos, de uma forma geral, auxiliam na restrição e definição do escopo das decisões do projeto.IV. Os estilos arquiteturais impedem que as partes consigam ter uma visão generalizada do todo arquitetural.Está correto apenas o que se afirma em: ",
+    "resposta": "I e III. "
+  },
+  {
+    "pergunta": "Ao realizarmos a modelagem arquitetural e a utilização das estruturas disponibilizadas por ela, como as views e viewpoints, podemos encontrar alguns tipos de inconsistências que precisam ser endereçadas, categorizadas e tratadas dentro da modelagem arquitetural.Com base nessas informações e nos estudos de modelagem arquitetural, analise os tipos de inconsistências dispostos a seguir e associe-os às suas respectivas definições:1) Inconsistência Direta.2) Inconsistência de Refinamento.3) Inconsistência de Aspecto Estático vs Dinâmico.4) Inconsistência de Aspecto Funcional vs Não-Funcional.(  ) Nesse tipo de inconsistência, temos o cenário onde duas views de um mesmo sistema, mas com níveis de detalhe diferentes, apresentam proposições que são diretamente contraditórias.(  ) Ocorre quando uma view de aspecto estático se encontra em conflito com uma view de aspecto dinâmico.(  ) Esse tipo de inconsistência ocorre quando temos uma propriedade não funcional, identificada em uma view não funcional, ausente nas views funcionais do projeto.(  ) Nesse tipo de inconsistência, temos o cenário no qual duas views apresentam proposições diretamente contraditórias.Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "2, 3, 4, 1. "
+  },
+  {
+    "pergunta": "Ao se definir estratégias arquiteturais e criar seu design, a visão arquitetural continua sendo uma das formas mais importantes de se comunicar a arquitetura de uma solução para as diversas partes. A visão “4+1” vem, nesse sentido, para apresentar os tipos de visão e permitir que o arquiteto as utilize de forma que promova o melhor entendimento da arquitetura.Considerando as informações acima e o conteúdo estudado, analise as afirmativas a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s).I. ( ) Na visão lógica, o diagrama de sequência é um dos diagramas associado a essa visão.II. ( ) Na visão de processos, o diagrama de sequência é um dos diagramas que representam essa visão.III. ( ) O diagrama de implantação é um diagrama associado à visão física.IV. ( ) O diagrama de atividades é um dos diagramas associados à visão de desenvolvimento.Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta":"V, F, V, F. "
+  },
+  {
+    "pergunta": "Ao se realizar a atividade de decomposição modular em um projeto arquitetural, é possível afirmar que há mais de uma forma de se realizar essa decomposição. Tudo irá depender do contexto implicado.Considerando essas informações e o conteúdo estudado sobre projetos arquiteturais, analise as afirmativas a seguir.I. Uma das formas de se realizar a decomposição modular é através do modelo orientado a objetos.II. O modelo de fluxo de dados é uma forma de se realizar a decomposição modular.III. A modelagem arquitetural é uma forma de se realizar a decomposição modular.IV. A decomposição modular é um pré-requisito para se realizar a modelagem arquitetural.Está correto apenas o que se afirma em: ",
+    "resposta":"I e II. "
+  },
+  {
+    "pergunta": "Ao trabalharmos com a modelagem arquitetural, devemos sempre entender que as estruturas arquiteturais são elementos complexos, pois buscam mapear e identificar todas as decisões importantes e decisões críticas em um sistema, levando em consideração todas as partes envolvidas. Tendo isto em mente, as viewpoints são estruturas que vieram para auxiliar a amplificar e clarear a visão arquitetural.Considerando essas informações e o conteúdo estudado sobre modelagens complexas, analise as afirmativas a seguir:I. Viewpoints são estruturas existentes na modelagem arquitetural que auxiliam na filtragem das informações.II. Uma viewpoint pode ser usada em várias estruturas arquiteturais, como a visão de implantação.III. Views são estruturas existentes na modelagem arquitetural que auxiliam no agrupamento das decisões do projeto, relacionadas por interesses comuns.IV. A ocorrência de cenários contraditórios entre views é improvável de ocorrer. Está correto apenas o que se afirma em: ",
+    "resposta": "I e III. "
+  },
+  {
+    "pergunta": "Ao trabalharmos com as visões arquiteturais, necessitamos de meios para que possamos expressar essas visões de forma que outros players entendam. A UML veio para auxiliar nesse assunto, disponibilizando diagramas que auxiliam a visualizar as visões de arquitetura.Considerando essas informações e o conteúdo estudado sobre visões arquiteturais, analise as afirmativas a seguir:I. Na UML, objetos são as entidades base para toda construção.II. Abstração representa a capacidade de herdar características de outras classes.III. Polimorfismo permite a classes de mais alto nível trocarem seu comportamento de acordo com a instância do filho.IV. A UML é considerada uma linguagem descritiva e funcional.Está correto apenas o que se afirma em: ",
+    "resposta": "I e III. "
+  },
+  {
+    "pergunta": "Ao utilizarmos a metodologia C4 para a prática de documentação arquitetural, é possível conquistar o benefício de poder utilizar os recursos dessa metodologia como, por exemplo, seus diagramas.Considerando essas informações e o conteúdo estudado sobre projetos arquiteturais e metodologia C4, analise as afirmativas a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s). I. ( ) O diagrama de contexto é um dos tipos de diagrama que a metodologia C4 disponibiliza para ser utilizado.II. ( ) O diagrama de sequenciamento é um tipo de diagrama disponibilizado dentro da metodologia C4.III. ( ) Os diagramas de container são um dos tipos de diagrama que a metodologia C4 disponibiliza para ser utilizado.IV. ( ) Os diagramas de cadeia de responsabilidade são utilizados na metodologia C4.Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "V, F, V, F. "
+  },
+  {
+    "pergunta": "Apesar do modelo unificado e em cascata ter sido utilizado durante muito tempo em projetos de softwares, o seu custo e rigidez fez com que novas metodologias surgissem, como o modelo ágil. Caracterizado por sua informalidade e produtividade, o modelo ágil também possui pilares que auxiliaram em sua na concretização.Considerando essas informações e o conteúdo estudado sobre os pilares da metodologia ágil, analise as afirmativas a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s). I. (  ) Um dos pilares do modelo ágil é uma preocupação maior com os indivíduos e interações do que com os processos e ferramentas.II. (  ) O levantamento e a análise de requisitos são um dos pilares da metodologia ágil.III. (  ) A preocupação com um software mais funcional do que com uma documentação mais detalhada e completa é um dos pilares da metodologia ágil.IV. (  ) Elaborar uma rápida resposta a mudanças, em vez de seguir um plano, é um dos pilares da metodologia ágil.Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "V, F, V, V. "
+  }, {
+    "pergunta": "As técnicas genéricas são utilizadas constantemente na modelagem arquitetural e na forma como os aspectos capturados são representados em uma arquitetura de software. Nesse grupo, as técnicas são separadas em: Linguagem Natural, Gráficos Informais e UML. Baseando-se nessas informações e no conteúdo estudado sobre modelagem arquitetural, analise as opções a seguir, relacionadas aos tipos de representações que podem ser utilizadas na modelagem, e associe-as às suas respectivas definições:1) Linguagem Natural.2) Gráficos Informais.3) UML.(  ) Essa técnica envolve a possibilidade de utilização de diagramas de tipos diferentes compostos por elementos gráficos e textuais.(  ) Essa técnica utiliza um conjunto de diagramas pré-definidos e regras bem definidas de criação e modelagem.(  ) Esse tipo de técnico busca realizar a descrição dos conceitos utilizando vocabulários extensivos e informais, podendo mapear qualquer tipo de conceito sem um detalhamento mais aprofundado do mesmo.Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "2, 3, 1. "
+  }, 
+  {
+    "pergunta": "As técnicas genéricas são utilizadas constantemente, tanto na modelagem arquitetural como na forma com que os aspectos arquiteturais são capturados, de maneira que se tenha um modo de representação em uma arquitetura de software destes elementos. Esse grupo de técnicas são separadas em linguagem natural, gráficos informais e UML.Considerando essas informações e o conteúdo estudado sobre implementação arquitetural, analise as técnicas disponíveis a seguir e associe-as com suas respectivas características.1) Linguagem natural.2) Gráficos informais.3) UML.(  ) Essa técnica envolve a possibilidade de utilização de diagramas de diferentes tipos, compostos por elementos gráficos e textuais.(  ) Essa técnica utiliza um conjunto de diagramas pré-definidos e regras bem definidas de criação e modelagem.(  ) Essa técnica busca realizar a descrição dos conceitos utilizando vocabulários extensivos e informais.Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "2, 3, 1. "
+  },
+  {
+    "pergunta": "Basicamente, podemos dizer que arquiteturas multicamadas são arquiteturas do tipo cliente-servidor, nas quais as camadas de apresentação, aplicação e dados são fisicamente separadas. O uso mais comum e popular desse tipo de arquitetura se aplica em arquiteturas de 3 camadas.Considerando essas informações e o conteúdo estudado sobre padrões de arquitetura, pode-se afirmar que o padrão multi-camadas promove a redução da dependência entre módulos, porque: ",
+    "resposta": "com a segregação da aplicação em camadas distintas, os profissionais de desenvolvimento têm a opção de trabalhar as camadas de forma independente, reduzindo o retrabalho em mudanças e implementações realizadas. "
+  },
+  {
+    "pergunta": "Cada vez mais vemos os softwares necessitarem de formas ainda mais sofisticadas de se visualizar e acompanhar as alterações, erros e informações que são produzidos, de forma que se possa entender o comportamento e tomar decisões baseadas nestas informações.Considerando essas informações e o conteúdo estudado sobre projeto arquitetural, analise as afirmativas a seguir:I. A auditoria é um requisito não funcional que visa rastrear o uso do sistema e os eventos que ocorrem nele.II. A auditoria é um requisito não funcional que permite o aprimoramento da segurança de uma aplicação.III. O monitoramento é um requisito não funcional que está associado à capacidade de acompanhar, de forma constante, o comportamento do software, além de ter a capacidade de lidar com cenários inesperados e aumentar a disponibilidade.IV. O monitoramento é um requisito não funcional que permite o aprimoramento da segurança de acesso de uma aplicação.Está correto apenas o que se afirma em: ",
+    "resposta": "I e III. "
+  },
+  {
+    "pergunta": "Como qualquer processo de desenvolvimento de uma solução de software que realize a criação de sua estrutura arquitetural, a documentação arquitetural também possui algumas ferramentas que auxiliam em sua elaboração. O modelo C4, por exemplo, é uma forma de ferramenta que auxilia na estruturação e na organização da documentação.Considerando essas informações e o conteúdo estudado sobre a metodologia C4, analise as afirmativas a seguir.I. Containers são um dos pilares que definem a metodologia C4.II. UML é um dos pilares da metodologia C4.III. Componentes são um dos pilares que definem a metodologia C4.IV. Documentação funcional é um dos pilares da metodologia C4.Está correto apenas o que se afirma em: ",
+    "resposta": "I e III. "
+  },
+  {
+    "pergunta": "Como toda metodologia, o modelo ágil é composto por diversas técnicas e práticas que precisam ser aplicadas, a fim de formatar o seu comportamento ágil. Além disso, essas técnicas e práticas auxiliam na categorização dessa metodologia.Considerando essas informações e o conteúdo estudado sobre implementação arquitetural, analise as afirmativas a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s). I. ( ) A utilização de equipes maiores e com mais profissionais é uma prática comum em metodologias ágeis.II. ( ) A utilização do modelo de equipes auto gerenciáveis é uma prática importante para o funcionamento da metodologia ágil.III. ( ) O uso do TDD (Test Driven Design) é uma técnica muito utilizada em metodologias ágeis.IV. ( ) Uma das práticas utilizadas em metodologias ágeis é a realização de grandes entregas, englobando um conjunto grande de alterações e implementações.Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "F, V, V, F. "
+  },
+  {
+    "pergunta": "Conectores são elementos úteis dentro do contexto da arquitetura de software, pois permitem ao arquiteto otimizar e aprimorar a interação de componentes da solução de software com outros componentes.Considerando as informações apresentadas e o conteúdo estudado sobre conectores arquiteturais, analise as afirmativas a seguir e a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s):I. ( ) Conectores permitem uma melhor integração com o usuário final, pois ajudam a aprimorar os componentes de tela.II. ( ) Conectores são importantes na arquitetura, pois criam mecanismos de integração com outros sistemas/componentes que possam necessitar se comunicar com o componente sendo desenvolvido.III. ( ) Conectores permitem aos componentes sendo desenvolvidos que se comuniquem com componentes e sistemas legados, mesmo com tecnologias distintas.IV. ( ) Conectores permitem aos componentes uma camada extra de segurança.Agora assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "F, V, V, F. "
+  },
+  {
+    "pergunta": "Conectores são peças de muita importância para o desenvolvimento de aplicações e para a arquitetura de software em si. Na sua utilização, temos tipos diferentes de conectores que o arquiteto de software pode escolher de acordo com a necessidade da solução. Dessa forma, temos um modo muito eficiente de comunicação entre os componentes, promovendo uma melhor integração entre as partes.Considerando essa informação, e de acordo com o conteúdo estudado, analise as afirmativas a seguir:I. Os conectores podem ser divididos em dois tipos: simples e compostos.II. Os conectores simples podem conter outros conectores simples em sua estrutura.III. Os conectores compostos podem ser disponibilizados como bibliotecas.IV. Os conectores compostos podem conter outros conectores compostos.Está correto apenas o que afirma em: ",
+    "resposta": "I e III. "
+  },
+  {
+    "pergunta": "Considerando o contexto dos requisitos não funcionais e sua relação com o processo arquitetural, podemos dizer que os requisitos não funcionais possuem influência considerável nas decisões arquiteturais do projeto.Considerando essas informações e o conteúdo estudado sobre projeto arquitetural, analise as afirmativas a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s).I. (  ) As estratégias de implementação são tipos de decisão que sofrem forte influência dos requisitos não funcionais.II. (  ) As decisões relacionadas a estratégias de pós-venda são decisões fortemente influenciadas pelos requisitos não funcionais.III. (  ) Design patterns fazem parte das definições técnicas do projeto e sofrem forte influência dos requisitos não funcionais.IV. (  ) As plataformas tecnológicas são decisões e definições de projeto que podem sofrer grandes alterações de acordo com os requisitos não funcionais do projeto.Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "V, F, V, V. "
+  },
+  {
+    "pergunta": "Dentro da estrutura do FEAF, além dos domínios sub arquiteturais, outros fatores são importantes para definir a estrutura deste framework arquitetural. Neste contexto, o FEAF possui quatro pilares importantes que são a base deste framework.Considerando essas informações e de acordo com o conteúdo estudado sobre framework arquitetural, analise as afirmativas a seguir.I. O Service Delivery é um dos primeiros pilares que suportam o framework arquitetural FEAF.II. A Functional Specification faz parte dos pilares que definem o framework arquitetural FEAF.III. O Resource Optimization é um pilar importante do FEAF, pois sua função é realizar a otimização do uso de recursos.IV. A Authoritative Reference é um dos pilares do DoDAF e da FEAF.Está correto o que se afirma em: ",
+    "resposta": "I e III. "
+  },
+  {
+    "pergunta": "Dentro da estrutura do framework arquitetural TOGAF, o ADM possui um papel fundamental, tanto por ser o elemento central da estrutura do framework quanto por prover uma gestão das informações e artefatos que serão criados e utilizados no processo.Com base nessas informações e nos estudos sobre framework arquitetural, analise as fases do ADM a seguir e associe-as a suas respectivas definições:1) Visão da arquitetura.2) Arquitetura de tecnologia.3) Governança da implementação.4) Gestão de requisitos.(  ) Encontra-se, literalmente, no centro do ADM, significando que cada uma das demais fases do ADM, ao mesmo tempo, gera novos requisitos de arquitetura, e utiliza como entrada os requisitos de arquitetura previamente identificados.(  ) Responsável pelo planejamento do projeto arquitetural que será executado na interação corrente do ADM.(  ) Nesta fase, haverá o detalhamento das necessidades de quais processos de negócio serão necessários para o atendimento das metas estratégicas.(  ) Sua principal atividade é a realização de revisões de conformidade, que são auditorias realizadas nos projetos identificados, a fim de garantir que estejam sendo executados de acordo com a arquitetura proposta.Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "4, 1, 2, 3. "
+  },
+  {
+    "pergunta": "Dentro de um contexto de desenvolvimento de uma aplicação, temos caminhos críticos definidores para o sucesso de uma determinada solução de software. A capacidade que um sistema tem de permitir a sua evolução de forma simples e transparente reflete um dos requisitos não funcionais mais importantes no conjunto de NFRs de um sistema.Considerando essas informações e o conteúdo estudado sobre projeto arquitetural, pode-se afirmar que o requisito não funcional mencionado no trecho é o de extensibilidade, porque: ",
+    "resposta": "a solução deve permitir a modificação, ou extensão da solução, suportando pequenas alterações que ajudarão o aplicativo a se adequar aos detalhes de nível prático. "
+  },
+  {
+    "pergunta": "Dentro do contexto de desenvolvimento de software e de projeto arquitetural, alguns requisitos não funcionais podem ser confusos e abstratos, gerando certa dificuldade e complexidade em seu entendimento e na proposta de uma solução.Considerando essas informações e o conteúdo estudado sobre projeto arquitetural, analise os requisitos não funcionais a seguir e associe-os a suas respectivas características:1)Segurança.2) Monitoramento.3) Auditoria.(  ) Ajuda a garantir a disponibilidade do sistema e a lidar com os cenários inesperados da produção.(  ) Implementa as medidas apropriadas para rastrear o uso do sistema e os eventos que ocorrem nele.(  ) Mecanismo integrado abrangente, que conecta assinatura, segurança no nível de inquilino, restrições de uso, restrições de dados, criptografia, privilégios de usuário e nível de função.Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "2, 3, 1. "
+  },
+  {
+    "pergunta": "Dentro do contexto de implementação arquitetural há um conjunto de conceitos e ferramentas que auxiliam, e muito, os times a conseguirem realizar um desenvolvimento mais produtivo e eficiente. Os padrões de projetos são técnicas, com eficácia comprovada, de estruturas de sistema e código que são extremamente úteis e eficientes para as implementações a serem realizadas.Considerando essas informações e o conteúdo estudado sobre implementação arquitetural e padrões de projetos, analise as afirmativas a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s). I. (  ) Em um padrão de projeto, é opcional que as consequências da aplicação sejam explicitadas em sua descrição.II. (  ) Todo padrão de projeto deve definir, de forma clara, qual problema está solucionando, a solução e as consequências.III. (  ) Todo padrão de projeto deve apresentar, de forma clara, os elementos do projeto, suas ligações e suas responsabilidades.IV. (  )  ",
+    "resposta": "F, V, V, F. "
+  },
+  {
+    "pergunta": "Dentro do contexto de modelagem arquitetura, os aspectos possuem um papel muito importante, tanto na modelagem, quanto na arquitetura em si. Os aspectos podem ser separados em dois grupos: estáticos e dinâmicos.Considerando essas informações e o conteúdo estudado sobre os aspectos na modelagem arquitetural, analise as afirmativas a seguir. I. Os aspectos estáticos são aqueles que não estão relacionados ao comportamento do sistema durante sua execução.II. Os aspectos estáticos são mais complexos que os aspectos dinâmicos.III. Os aspectos dinâmicos são o oposto do estático e estão intrinsecamente relacionados ao comportamento do sistema durante sua execução.IV. Os aspectos dinâmicos são mais fáceis de se mapear, devido à sua dinamicidade. Está correto apenas o que afirma em: ",
+    "resposta": "I e III. "
+  },
+  {
+    "pergunta": "Dentro do contexto de um projeto arquitetural, é de fundamental importância que se documente todas as avaliações e informações importantes, tanto para o projeto quanto para a arquitetura que está sendo criada. Um documento arquitetural possibilita um acompanhamento mais preciso e mais confiável da arquitetura.Considerando essas informações e o conteúdo estudado sobre a documentação arquitetural, analise as afirmativas a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s). I. (  ) Dentro da documentação arquitetural, a presença dos requisitos funcionais identificados é imprescindível.II. (  ) Dentro da documentação arquitetural, a descrição do papel de cada elemento do contexto arquitetural é imprescindível.III. (  ) Dentro da documentação arquitetural, é imprescindível a presença de elementos arquiteturais como estrutura de componentes, decisões técnicas e backlog técnico.IV. (  ) Detalhes técnicos e decisões técnicas são elementos opcionais na documentação arquitetural.Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "F, V, V, F. "
+  },
+  {
+    "pergunta": "Dentro do contexto do TOGAF, o ADM possui um papel centralizador, e sua utilização, ou ciclo de vida, é composta de várias fases e um processo bem definido de execução, onde temos um elemento central que é atendido por todas as fases.Considerando essas informações e o conteúdo estudado sobre framework arquitetural, pode-se afirmar que: ",
+    "resposta": "O elemento central do ADM é a Gestão de Requisitos (Requirement Management). "
+  },
+  {
+    "pergunta": "Dentro do contexto dos padrões de projetos, temos diversos padrões que podem ser aplicados em sua implementação arquitetural. Eles são separados em grupos que os classificam e servem para auxiliar na definição de sua finalidade dentro do projeto.Considerando essas informações e o conteúdo estudado sobre implementação arquitetural e padrões de projetos, analise as afirmativas a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s). I. (  ) Prototype, Builder e Singleton são exemplos de padrões de projeto criacionais.II. (  ) Adapter, Bridge e Iterator são exemplos de padrões de projetos do tipo estruturais.III. (  ) Visitor, Mediator e Observer são exemplos de padrões de projetos do tipo comportamentais.IV. (  ) Singleton é um tipo de padrão de projeto que permite a criação de várias instâncias diferentes de uma mesma classe.Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "V, F, V, F. "
+  },
+  {
+    "pergunta": "Dentro do processo de confecção de um projeto arquitetural, os requisitos não funcionais desempenham um papel cada vez mais importante e decisivo na hora de se realizar a estruturação da arquitetura e de sua implementação.Considerando essas informações e o conteúdo estudado sobre projeto arquitetural, analise as afirmativas a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s).I. (  ) Requisitos de desempenho são considerados requisitos não funcionais.II. (  ) Requisitos de confiabilidade são excluídos da categoria de requisitos não funcionais.III. (  ) Requisitos de interoperabilidade são considerados requisitos não funcionais.IV. (  ) Requisitos éticos são excluídos da categoria de requisitos não funcionais.Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "V, F, V, F. "
+  },
+  {
+    "pergunta": "Dentro do universo da arquitetura de software, constantemente temos a necessidade de realizar “conexões” com elementos externos, a fim de garantir o fluxo da informação e das ações necessárias para que o sistema funcione corretamente. Nesse contexto, utilizamos o conceito de conectores, que tem por definição a capacidade de realizar a transferência de controle e dados entre as partes.Considerando a informação apresentada e o conteúdo estudado sobre os conectores de software, analise as afirmativas a seguir:I. Facilitação é o tipo de serviço no qual conectores realizam a mediação entre componentes de uma interação.II. Coordenação é o tipo de serviço que facilita e permite a interação entre componentes heterogêneos pode ser realizadas.III. Comunicação é o tipo de serviço que suporta a transmissão de dados entre componentes através de blocos simples de informação.IV. Conversão é um tipo de serviço que permite a troca de controles entre componentes, permitindo que a thread de execução seja trocada entre as partes.Está correto apenas o que se afirma em: ",
+    "resposta": "I e III. "
+  },
+  {
+    "pergunta": "Dentro dos modelos arquiteturais e de sua utilização, são utilizadas linguagens notacionais para dar suporte ao arquiteto de software em suas atividades de modelar e expor as propriedades e aspectos de uma arquitetura de software. As linguagens notacionais podem ser genéricas ou ADL’s específicas.Considerando as informações apresentadas e o conteúdo estudado sobre modelagem arquitetural e os tipos de ADL, analise as afirmativas a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s).I. (  ) Rapid é um tipo de ADL de 1ª geração.II. (  ) Koala é um tipo de linguagem genérica.III. (  ) UML é um tipo de linguagem genérica.IV. (  ) AADL é um tipo de ADL.Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "V, F, V, V. "
+  },
+  {
+    "pergunta": "Diagramas são importantes ferramentas no entendimento de fluxos e estruturas arquiteturais, bem como no comportamento que a solução apresentará quando estiver pronta. Uma das partes mais importantes para se ter clareza na apresentação é na estrutura do sistema que será desenvolvido. Para isso, diagramas UML do tipo estrutural são essenciais para garantir a clareza nesse tipo de explicação.Com base na afirmação apresentada e nos estudos sobre a UML, analise os diagramas a seguir e associe-os a suas respectivas definições:1) Diagrama de Classes.2) Diagrama de Objetos.3) Diagrama de Implantação.4) Diagrama de Componentes.( ) É praticamente um complemento do diagrama de classes e bastante dependente dele. O diagrama fornece uma visão dos valores armazenados pelos objetos de um diagrama de classes em um determinado momento da execução de um processo do software.( ) Determina as necessidades de hardware do sistema e as características físicas como servidores, estações, topologias e protocolos de comunicação.( ) Representa os componentes do sistema quando o mesmo for ser implementado em termos de módulos de código-fonte, bibliotecas, formulários, arquivos de ajuda, módulos executáveis e etc.( ) Define a estrutura das classes utilizadas pelo sistema, determinando os atributos e métodos que cada classe tem, além de estabelecer como as classes se relacionam e trocam informações entre si.Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "2, 3, 4, 1. "
+  },
+  {
+    "pergunta": "Diante da grande variedade de diagramas que a UML oferece para que se represente as visões arquiteturais, é importante que se saiba a utilidade de cada um dos tipos disponíveis, especialmente quando é necessário realizar a representação de fluxos em ordem temporal entre os componentes e o sequenciamento dos mesmos.Diante do texto apresentado e do conteúdo abordado na UML, analise as asserções a seguir e a relação proposta entre elas:I. Na UML, é comum termos que representar fluxos de interação de componentes na linha do tempo usando diagramas comportamentais. ",
+    "resposta": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I. "
+  },
+  {
+    "pergunta": "Diante da grande variedade de informações que podem ser capturadas em uma modelagem arquitetural, a utilização de viewpoints auxilia na identificação de estruturas e views da solução. Entre vários aspectos, podemos identificar os físicos, lógicos, Implantação e outros.Diante do texto apresentado e do conteúdo abordado na modelagem complexa, analise as asserções a seguir e a relação proposta entre elas:I. Na modelagem arquitetural temos que realizar a captura das entidades físicas e suas conexões.Porque:II. Estruturas de viewpoints, como a Physical Viewpoint, irão utilizar essas informações.A seguir, assinale a alternativa correta: ",
+    "resposta": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I. "
+  },
+  {
+    "pergunta": "Durante a fase de realização de um projeto arquitetural, em alguns momentos é identificada a necessidade de realizar sua decomposição sistêmica em módulos menores. Esses módulos irão auxiliar os arquitetos e projetistas na decisão relativa aos perfis das estruturas.Considerando essas informações e o conteúdo estudado sobre projetos arquiteturais, analise as asserções a seguir e a relação proposta entre elas.I. A identificação dos perfis dos componentes e subcomponentes de um sistema é realizada pelos arquitetos e projetistas.Porque:II. Os arquitetos e projetistas são as partes que possuem o maior conhecimento técnico e funcional do projeto.A seguir, assinale a alternativa correta: ",
+    "resposta": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I. "
+  },
+  {
+    "pergunta": "Em qualquer sistema que se necessite desenvolver uma arquitetura de qualquer complexidade, é necessário que se possua uma metodologia para organizar a estrutura e artefatos, bem como um processo a ser aplicado e seguido a fim de que esta arquitetura seja compreensível.Considerando essas informações e o conteúdo estudado sobre framework arquitetural, analise as afirmativas a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s):I. (  ) A adoção de frameworks organizacionais, apesar de sua organização e padronização, causaram impacto negativo na produtividade.II. (  ) A adoção dos frameworks arquiteturais gerou uma padronização de termos e linguagens organizacionais.III. (  ) Os frameworks arquiteturais possibilitaram uma maior organização das informações para o contexto arquitetural.IV. (  ) O framework EAP foi o primeiro framework arquitetural publicado e serviu de base para vários outros frameworks.Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "F, V, V, F. "
+  },
+  {
+    "pergunta": "Em relação aos requisitos não funcionais que possuem maiores interferências na arquitetura de software, podemos elencar segurança, interoperabilidade e configurabilidade como três grandes requisitos que podem alterar o rumo de uma arquitetura.Considerando essas informações e o conteúdo estudado sobre projeto arquitetural, analise as afirmativas a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s).I. (  ) Segurança é um NFR que deve ser considerado como um mecanismo integrado e abrangente dentro da aplicação.II. (  ) A configurabilidade só é alcançável através da codificação extensiva.III. (  ) A interoperabilidade é um NFR que preza pela capacidade de se comunicar com outros sistemas, internos e externos, de forma transparente.IV. (  ) A configurabilidade é um NFR que preza pela capacidade de customizar, através de configurações e não de códigos, elementos como UI, autenticação, regras de negócio, entre outros.Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "V, F, V, V. "
+  },
+  {
+    "pergunta": "Em todo sistema ou solução baseada em software, é de extrema importância que o usuário ou cliente se sinta confortável ao utilizar o software e tenha uma experiência agradável ao fazer isso. Para isso, são necessárias boas diretrizes para implementar uma interface coerente e de fácil comunicação com o usuário do sistema.Considerando essas informações e o conteúdo estudado sobre os requisitos não funcionais, podemos dizer que o texto apresentado se refere ao conceito de usabilidade, porque: ",
+    "resposta": "esse é o tópico responsável por lidar com o design da interface gráfica de interação a qual o usuário terá acesso. "
+  },
+  {
+    "pergunta": "Em todo sistema ou solução baseada em software, é necessário que se realize uma verificação entre o custo e o benefício de se assumir algumas decisões e diretrizes em um modelo arquitetural. Essa verificação deve ser realizada interativamente em um projeto envolvendo as partes do projeto, buscando a identificação de informações importantes, como as decisões arquiteturais e as decisões técnicas. Dessa forma, é possível ter uma visão melhor e mais coerente do projeto e da arquitetura a ser realizada.Considerando as informações apresentadas e o conteúdo estudado sobre modelagem arquitetural, podemos dizer que o texto se refere ao conceito de modelagem dirigida a stakeholders, porque: ",
+    "resposta": "a verificação das decisões e diretrizes e sua relação custo vs benefício é realizada pelo arquiteto e pelos stakeholders. "
+  },
+  {
+    "pergunta": "Em um processo de desenvolvimento de software a confecção de um projeto arquitetural traz grandes vantagens, uma vez que o projeto arquitetural é responsável por empregar decisões e definições arquiteturais a fim de delinear como a arquitetura será construída.Considerando essas informações e o conteúdo estudado sobre projetos arquiteturais e suas características, analise as afirmativas a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s). I. ( ) Um dos benefícios em se ter um projeto arquitetural é a melhora na comunicação com os usuários.II. ( ) Um dos benefícios de um projeto arquitetural é que ele pode ser reutilizado em larga escala. III. ( ) A utilização de projetos arquiteturais dificulta a análise sistêmica da arquitetura, pois aumenta o custo em relação ao tempo.IV. ( ) A utilização de um projeto arquitetural dificulta a sua reutilização, pois o projeto de software se limita a tratar da solução em desenvolvimento.Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "V, V, F, F. "
+  },
+  {
+    "pergunta": "O cloud lock-in (aprisionamento na nuvem) pode ser visto como a dependência entre uma aplicação e os recursos de um determinado provedor de computação em nuvem. Esse problema geralmente ocorre quando o provedor implementa um conjunto próprio de API (Application Programming Interface).” Fonte: SOUZA NETO, Manoel Veras de. Computação em Nuvem: Nova Arquitetura de TI. Rio de Janeiro. Brasport, 2015. p. 41.  Considerando essas informações e o conteúdo estudado, podemos afirmar que uma solução viável para a integração entre os mais variados provedores de serviços em nuvem é: ",
+    "resposta": "estabelecer um padrão para os API’s, possibilitando aos desenvolvedores de aplicativos a chance de integração de diversas aplicações através da nuvem pública. "
+  },
+  {
+    "pergunta": "Uma das formas mais conhecidas de se representar as visões de uma arquitetura de software é a 4+1 que, inclusive, foi a base do processo RUP e é muito utilizada ainda nas definições e estruturas arquiteturais e nas documentações provenientes da criação da arquitetura de software.”Fonte: Kruchten, P. The 4+1 view model of architecture. IEEE Software. 1995. (tradução do autor).A visão “4+1” disponibiliza para a utilização as visões: física, lógica, desenvolvimento e de processos. Baseando-se nessas informações e no conteúdo estudado sobre a visão 4+1, analise os tipos de visões a seguir e associe-os às suas respectivas definições:1) Visão Lógica.2) Visão de Processos.3) Visão de Desenvolvimento.4) Visão Física.(  ) Possui uma integração maior com os requisitos não funcionais e com a estrutura da solução.(  ) Auxilia no entendimento de como os processos interagirão com os componentes existentes.(  ) Tem como objetivo principal representar os requisitos comportamentais.(  )  ",
+    "resposta": "4, 2, 1, 3. "
+  },
+  {
+    "pergunta": " Além do modelo de pagamento por uso, os provedores de serviços de nuvem também oferecem às empresas diversos benefícios. As empresas podem usufruir de escalabilidade e flexibilidade, sem as limitações físicas de servidores locais, da confiabilidade de múltiplos Data centers com diversas redundâncias [...]” Fonte: MICROSOFT AZZURE. O que é um provedor de Serviços em Nuvem? Disponível em: <https://azure.microsoft.com/pt-br/overview/what-is-a-cloud-provider/>. Acesso em: 13/08/2019.  Esse trecho se refere às características da Computação em Nuvem. A partir dessas informações e do conteúdo estudado a respeito, podemos afirmar que a função do provedor de serviços é: ",
+    "resposta": "entender como o seu ambiente pode ser adaptado às demandas dos clientes e apresentar instrumentos ligados à gestão e procedimentos arquitetados para a nuvem. "
+  },
+  {
+    "pergunta": " As ações de validação, por exemplo, devem ser duplicadas com programação desenvolvida no lado do servidor. Dessa forma, JavaScript teria a função exclusiva de agilizar a validação sem necessidade de requisições do servidor. O usuário poderá desabilitar JavaScript no seu navegador [...]” Fonte: SILVA, Maurício Samy. JavaScript – Guia do Programador: São Paulo: Novatec. 2010, p. 488.  Considerando essas informações e o conteúdo estudado sobre a utilização do JavaScript, analise as afirmativas a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s).  I. ( ) O JavaScript desenvolve aplicativos do lado do servidor, de forma esporádica, parecidos com aqueles que criamos utilizando a rede.  II. ( ) O JavaScript pode limitar as aplicações do lado do cliente, onde é possível compará-lo aos aplicativos de desktop quanto ao requisito diversidade.  III. ( ) O JavaScript tem a capacidade de criar aplicações originadas do SPA, adequadas em uma exclusiva página da Web.  IV. ( ) Se aplica o JavaScript como uma maneira de ressaltar a experiência do cliente que emprega os aplicativos SaaS concentrados no servidor.  Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "F, F, V, V. "
+  },
+  {
+    "pergunta": " Assim, a sociedade da informação significa, dentre outros possíveis significados, o ingresso da sociedade em um novo patamar histórico de produção, com um perfil de riquezas e valores, dentre eles a informação que, mais do que certificar-nos da prioridade das regras do mercado, redefine identidades e relações dos usuários.” Fonte: OLIVEIRA, Joaquim Humberto Coelho de; GONÇALVES, Carla Ferreira. Do modelo de sociedade industrial ao de sociedade da informação: proteções jurídicas às inovações tecnológicas. Disponível em: <http://publicacoes.unigranrio.edu.br/index.php/rdugr/article/view/1393/720>. Acesso em: 11/07/2019.  O trecho apresentado aborda a importância que a sociedade da informação adquiriu e a sua influência no novo modelo de produção. A partir dessas informações e do conteúdo estudado a respeito, podemos afirmar que a diferença básica no comportamento da sociedade industrial em relação à sociedade do conhecimento ocorre pelo fato de: ",
+    "resposta": "a sociedade industrial apresentar uma produção potencializada através das máquinas, diferente do que ocorre nas sociedades do conhecimento, que se caracterizam pela capacidade de criação. "
+  },
+  {
+    "pergunta": "Cerca de 28,7 milhões de lares brasileiros (quase 40% do total) contam com o serviço de banda larga fixa. Mas, diferentemente do telefone fixo e do celular, o mercado da banda larga fixa vai, cada vez mais, além das empresas de grande porte, com presença nacional. Os provedores regionais, somados a pequenas e médias empresas, representam uma importante parcela desse mercado.” Fonte: ANATEL. Provedores regionais e de pequeno porte expandem banda larga. Disponível em: <https://www.anatel.gov.br/consumidor/component/content/article?id=704:provedores-regionais-e-de-pequeno-porteexpandem-banda-larga>. Acesso em: 03/08/2019.  O trecho apresentado aborda a abrangência dos provedores de banda larga. Assim, e considerando os conteúdos estudados, analise as afirmativas a seguir sobre algumas potencialidades de um serviço na nuvem:  I. A AWS (Amazon Web Services) é um provedor que lidera o mercado e apresenta uma quantidade elevada de DataCenters e sua extensa abrangência.  II. A Google Cloud se caracteriza por disponibilizar recursos que visam atender as extensas solicitações ou as estruturas menores com a possibilidade de verificação.  III.  ",
+    "resposta": "I e III. "
+  },
+  {
+    "pergunta": "Com IaaS, não há necessidade de manter e atualizar software e hardware ou solucionar problemas com equipamentos. Com o contrato apropriado no lugar, o provedor de serviços garante que sua infraestrutura seja confiável e atenda aos SLA’s.”  Fonte: MICROSOFT AZURE. O que é IaaS? Disponível em: <https://azure.microsoft.com/pt-br/overview/what-is-iaas/>. Acesso em: 21/07/2019.   O trecho apresentado aborda um dos benefícios que o IaaS traz para a organização. A partir dessas informações e do conteúdo estudado, é possível verificar que uma das principais vantagens oferecidas pelo IaaS é: ",
+    "resposta": "possibilitar aos gestores da organização que se dediquem apenas aos negócios. "
+  },
+  {
+    "pergunta": "Medem o tempo necessário para o serviço do Cloud Spanner processar uma solicitação. A métrica captura a quantidade real de tempo decorrido, não a quantidade de tempo de CPU que o Cloud Spanner utilizou.” Fonte: Google Cloud. Métricas de latência. Disponível em: <https://cloud.google.com/spanner/docs/latency?hl=pt-br>. Acesso em: 13/08/2019. Com base nessas informações e no conteúdo estudado sobre serviços em nuvem, pode-se afirmar que o trecho apresentado se refere ao conceito de: ",
+    "resposta": "latência. "
+  },
+  {
+    "pergunta": "Na década de 1970, o domínio dos mainframes começou a ser desafiado pelo surgimento dos microprocessadores. O chip Intel 4004, lançado em 1971, era uma unidade central de processamento de quatro bits e o primeiro microprocessador disponível comercialmente. As inovações facilitaram enormemente a tarefa de desenvolver e fabricar computadores de menor porte.” Fonte: TIGRE, Paulo Bastos; NORONHA, Vitor Branco. Do mainframe à nuvem: inovações, estrutura industrial e modelos dos negócios nas tecnologias da informação e da comunicação. Disponível em: <http://www.scielo.br/pdf/rausp/v48n1/09.pdf>. Acesso em: 11/07/2019.  O trecho apresentado aborda a linha evolutiva das inovações tecnológicas, com a chegada dos microprocessadores após os mainframes, na década de 1970. Isso posteriormente desencadeou o modelo de Computação em Nuvem. Assim, e considerando os conteúdos estudados sobre a evolução histórica até a Computação em Nuvem, analise as afirmativas a seguir:  I. Na década de 1970, os microprocessadores foram essenciais ao desenvolvimento dos microcomputadores e do setor ligado à tecnologia da época.  II. Na década de 1990, a disseminação da internet se encontrava em larga escala, pois apresentava aspectos importantes, como uma infraestrutura e uma linguagem uniforme.  III. Os anos 1980 são marcados pelo surgimento de máquinas que apresentavam a habilidade de processar dados rotineiros e de expor o próprio processamento.  IV. No início dos anos 2000, temos a introdução da linguagem W.W.W (World Wide Web), que ampliou o uso da rede IP em uma escala local.  Está correto apenas o que se afirma em: ",
+    "resposta": "I e III. "
+  },
+  {
+    "pergunta": "Não é surpresa que a segurança continue a ser um problema com a tecnologia de nuvem, especialmente agora com a introdução das leis de proteção de dados GDPR na Europa e LGPD no Brasil. Dadas as vantagens da computação em nuvem, muitas empresas provavelmente se apressarão sem considerar seriamente as implicações de segurança.” Fonte: MATTOS, Carlos. 3 desafios de Cloud Computing para 2019. Disponível em: <https://cio.com.br/3-desafios-de-cloud-computing-para2019/>. Acesso em: 11/07/2019  Considerando essas informações e o conteúdo estudado sobre o tema, analise os objetivos da Computação em nuvem e associe-os com suas respectivas características:   1) Disponibilidade do serviço. 2) Dados em lockin. 3) Confidencialidade e Auditabilidade. 4) Bugs em larga escala em sistema distribuídos. 5) Lista de reputação.  ( ) Caracterizase por padronizar os APIs, possibilitando aos desenvolvedores de aplicativos a integração de diversas aplicações.  ( ) Tem como alternativa de solução a utilização de algoritmos criptografados apresentados na infraestrutura da nuvem.  ( ) Tem como finalidade fechar contratos com mais de um provedor de serviços nuvem e implementar a aplicação de dados.  ( )  ",
+    "resposta": "2, 3, 1, 5, 4. "
+  },
+  {
+    "pergunta": "O IBM Cloud Private é uma plataforma de nuvem escalável, que pode ser executada em qualquer infraestrutura local gerenciada pelo VMware ou pelo OpenStack, ou em qualquer ambiente de nuvem. O IBM Cloud Private se destina ao desenvolvimento e gerenciamento de aplicativos conteinerizados.” Fonte: AWS. Implantar o IBM Cloud Private na AWS com o novo Quick Start. Disponível em: <https://aws.amazon.com/pt/about-aws/whats-new/2019/02/deploy-ibm-cloud-private-onaws-with-new-quick-start/>. Acesso em: 13/08/2019.  Considerando essas informações e o conteúdo estudado, analise as características do IBM Cloud e relacione os itens dispostos a seguir:  1) Rede. 2) Transferência de Dados. 3) Largura de Banda. 4) Gerenciamento e Suporte.  ( ) Opções de gerenciamento e monitoramento incluídas.  ( ) 250 GB por mês de largura de banda pública de saída em todos os servidores virtuais mensalmente.   ( ) Largura de Banda de rede privada ilimitada em todos os servidores bare metal e virtuais.  ( ) Rede privada global integrada para fácil implementação e comunicação ininterrupta entre servidores.  Agora, assinale a alternativa que apresenta a sequência correta: ",
+    "resposta": "4, 3, 2, 1. "
+  },
+  {
+    "pergunta": "Para melhorar a confiança, uma das prioridades da arquitetura SaaS é a criação de uma arquitetura de dados que seja robusta e segura o bastante para satisfazer parceiros e clientes – preocupados com o controle dos dados empresariais. (vitais para terceiros) [...]” Fonte: VERAS, Manoel. Cloud Computing: Nova Arquitetura da Ti. Rio de Janeiro: Brasport. 2012. p. 197.  O trecho apresentado traz uma das características essenciais de uma arquitetura de dados. Com base nessas informações e no conteúdo estudado, pode-se afirmar que a propriedade de dados permite, dentre outros aspectos: ",
+    "resposta": "a possibilidade de backup dos dados. "
+  },
+  {
+    "pergunta": "São uma classe de algoritmos para a Criptografia que utilizam chaves criptográficas relacionadas para a decifração e a encriptação. A chave da encriptação é relacionada insignificadamente à chave de decifração, que podem ser idênticas ou ter uma simples transformação entre duas chaves.”  Fonte: SANTOS JÚNIOR, Alfredo Luiz dos. Quem mexeu no seu sistema? Segurança em sistemas de Informação. Rio de Janeiro: Brasport, 2008.  A partir dessas informações e do conteúdo estudado sobre métodos de segurança, é correto afirmar que o trecho se refere aos algoritmos da: ",
+    "resposta": "Chave Simétrica. "
+  },
+  {
+    "pergunta": "Segundo Ray Ozzie, diretor de desenvolvimento de Software da Microsoft, a era da nuvem já começou. Terá um impacto revolucionário na maneira como as pessoas lidam com a tecnologia e vai determinar a história da computação nos próximos cinquenta anos.”  Fonte: PORTAL EDUCAÇÃO. As Fronteiras da Computação em Nuvem. Disponível em: <https://www.portaleducacao.com.br/conteudo/artigos/informatica/as-fronteiras-da-computacao-em-nuvem/56186>. Acesso em: 21/07/2019.  Esse trecho se refere à importância e às tendências da computação em nuvem no futuro. A partir dessas informações e do conteúdo estudado a respeito, podemos afirmar que a Computação em Nuvem tem como característica: ",
+    "resposta": "apresentar ferramentas capazes de armazenar o conteúdo elaborado virtualmente, através de um acesso online. "
+  },
+  {
+    "pergunta": "Serviços de computação em nuvem devem controlar e otimizar os recursos de maneira automática, disponibilizando mecanismos para medir esses recursos utilizando um sistema de medida apropriado para o tipo de recurso sendo utilizado (por exemplo, quantidade de espaço de armazenamento, velocidade de comunicação, capacidade de processamento, número de usuários ativos, etc.).” Fonte: OPUS. Afinal, o que é Computação em Nuvem? E o que não é? Disponível em: <https://www.opus-software.com.br/afinal-o-que-e-computacao-em-nuvem-e-o-que-nao-e/>. Acesso em: 11/07/2019.  O trecho apresentado traz uma das características essenciais do modelo de cloud computing. Com base nessas informações e no conteúdo estudado sobre o tema, pode-se afirmar que a característica exposta no texto se refere a: ",
+    "resposta": "serviços mensurados. "
+  },
+  {
+    "pergunta": "Talvez você não saiba, mas Active Record é um pouco mais que a forma que o Rails se comunica com o banco de dados, ele é uma implementação Ruby de um padrão de design de projeto que leva o mesmo nome do ORM (Mapeamento Relacional de Objetos) do Rails”. Fonte: MEDIUM CORPORATION. O mínimo que você deveria saber sobre Active Record. Disponível em: <https://medium.com/theminimum/algumas-coisas-que-voc%C3%AA-deveria-saber-sobre-o-active-record-5534d17956d6>. Acesso em: 21/07/2019.  O trecho apresentado se refere à definição do Active Record e suas características principais de implementação. Assim, e considerando os conteúdos estudados, analise as afirmativas a seguir sobre as diferenças e vantagens do Active Record do Rails.  I. O Rails acrescenta, de maneira automática, os atributos, tomando como referência as colunas do banco de dados.  II. Os desenvolvedores necessitam determinar os seus requisitos em mais de um local.  III. As convenções onde são determinadas as nomenclaturas do Rails possibilitam que bancos de dados encontrem os campos exclusivos.  IV. O Rails adiciona validação de relacionamento através de uma linguagem externa.  Está correto apenas o que se afirma em: ",
+    "resposta": "I e III. "
+  },
+  {
+    "pergunta": "Taxa em que os dados são transmitidos. Ele também pode ser definido como a quantidade de dados movidos com êxito de um lugar para outro em um determinado período. A taxa de transferência é medida em bits por segundo (bps).” Fonte: INTEL. Largura de banda vs throughput vs velocidade vs taxa de conexão.  Disponível em: <https://www.intel.com.br/content/www/br/pt/support/articles/000026190/network-and-i-o/wireless-networking.html>. Acesso em: 13/08/2019.  A partir dessas informações e do conteúdo estudado sobre avaliação de serviços em nuvem, podemos afirmar que o trecho apresentado se refere ao conceito de: ",
+    "resposta": "throughput. "
+  },
+  {
+    "pergunta": " Um exemplo pode ser analisado em uma empresa que comercializa seus produtos pela internet em sistemas de e-comerce. Neles, é possível utilizar os recursos de nuvem pública, principalmente pela escabilidade e pela elasticidade.”  Fonte: VARELLA, Walter Augusto. Implementação e migração para computação em nuvem. SENAC. São Paulo. 2019. Página 10.   O trecho apresentado traz uma das características do uso da nuvem dentro sistema E-commerce. A partir dessas informações e do conteúdo estudado, é correto afirmar que uma das vantagens da utilização da nuvem pública é: ",
+    "resposta": "nuvem híbrida. "
+  },
+  {
+    "pergunta": "fica evidente que o SOA não deve ser utilizada para todo o tipo de aplicativo. Não podemos desenvolver um sistema pensando apenas em serviços, pois corremos o risco de introduzir redundância descontrolada no sistema.” Fonte: SAMPAIO, Cleuton. SOA e WEB Services em Java. Rio de Janeiro: Brasport, 2006. p. 19.  Considerando essas informações e o conteúdo estudado, podemos afirmar que o SOA se caracteriza por: ",
+    "resposta": "voltar os dados codificados para o código JavaScript do lado do cliente. "
+  },
+  {
+    "pergunta": "significa que um disco rígido potencial foi criado dentro de um ambiente físico por meio de um software específico e opera independentemente dele. Ter um hardware dentro de outro possibilita rodar sistemas operacionais e todo o tipo de programas.” Fonte: UOL MEU NEGÓCIO. MÁQUINA VIRTUAL X CONTAINERS: DIFERENÇAS E SEMELHANÇAS. Disponível em: <https://meunegocio.uol.com.br/academia/tecnologia/maquina-virtual-vm-x-containers-diferencas-esemelhancas.html#rmcl>. Acesso em: 21/07/2019.    A partir dessas informações e do conteúdo estudado, é correto afirmar que a IaaS pode ser conceituada como: ",
+    "resposta": "estrutura baseada na virtualização dos recursos de computação. "
+  },
+  {
+    "pergunta": "",
+    "resposta": ""
+  },
+  {
+    "pergunta": "",
+    "resposta": ""
+  },
+  {
+    "pergunta": "",
+    "resposta": ""
+  },
+  {
+    "pergunta": "",
+    "resposta": ""
+  },
+  {
+    "pergunta": "",
+    "resposta": ""
+  },
+  {
+    "pergunta": "",
+    "resposta": ""
+  },
+  {
+    "pergunta": "",
+    "resposta": ""
+  },
+  {
+    "pergunta": "",
+    "resposta": ""
+  },
+  {
+    "pergunta": "",
+    "resposta": ""
+  },
+  {
+    "pergunta": "",
+    "resposta": ""
+  },
+  {
+    "pergunta": "",
+    "resposta": ""
+  },
+  {
+    "pergunta": "",
+    "resposta": ""
+  },
+  {
+    "pergunta": "",
+    "resposta": ""
+  },
+  {
+    "pergunta": "",
+    "resposta": ""
+  },
+  {
+    "pergunta": "",
+    "resposta": ""
   }
+
+
+
+
+
+
+
 ]
 
