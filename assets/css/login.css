@@ -320,6 +320,9 @@ form.sign-in-form {
   font-size: 0.95rem;
   padding: 0.7rem 0;
 }
+p{
+  text-align:center
+}
 
 .btn.transparent {
   margin: 0;

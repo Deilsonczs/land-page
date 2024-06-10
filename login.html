@@ -17,7 +17,14 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=Work+Sans:wght@600&display=swap"
     rel="stylesheet">
-    <title>Sign in & Sign up Form</title>
+    <title>Entre ou cadastre-se</title>
+    <meta name="title" content="SEARCH- portal de compilados">
+  <meta name="description" content="portal de compilados e um pequeno site para fins didaticos em aprendizado web">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/svg+xml">
   </head>
  
   <body>
@@ -25,18 +32,18 @@
         <div class="forms-container">
             <div class="signin-signup">
                 <form action="#" class="sign-in-form" onsubmit="login(event);">
-                    <h2 class="title">Sign in</h2>
+                    <h2 class="title">Entrar</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
-                        <input type="text" id="username" placeholder="Username" />
+                        <input type="text" id="username" placeholder="Usuário" />
                     </div>
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
-                        <input type="password" id="password" placeholder="Password" />
+                        <input type="password" id="password" placeholder="Senha" />
                     </div>
-                    <input type="submit" value="Login" class="btn solid" />
+                    <input type="submit" value="login" class="btn solid" />
                     <div class="error" id="error-message"></div>
-                    <p class="social-text">Or Sign in with social platforms</p>
+                    <p class="social-text">Não tem as credenciais? entre em contato com o administrador do portal Search 4.0!</p>
                     <div class="social-media">
                         <a href="#" class="social-icon">
                             <i class="fab fa-facebook-f"></i>
@@ -53,10 +60,10 @@
                     </div>
                 </form>
                 <form action="#" class="sign-up-form">
-                    <h2 class="title">Sign up</h2>
+                    <h2 class="title">Inscrever-se</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Username" />
+                        <input type="text" placeholder="Usuário" />
                     </div>
                     <div class="input-field">
                         <i class="fas fa-envelope"></i>
@@ -64,10 +71,10 @@
                     </div>
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password" />
+                        <input type="password" placeholder="Senha" />
                     </div>
-                    <input type="submit" class="btn" value="Sign up" />
-                    <p class="social-text">Or Sign up with social platforms</p>
+                    <input type="submit" class="btn" value="Inscrever-se" />
+                    <p class="social-text">Atenção! nosso sistema de cadrastro de usuários está em desenvolvimento, entre em contato com a administração para solicitar as credenciais.</p>
                     <div class="social-media">
                         <a href="#" class="social-icon">
                             <i class="fab fa-facebook-f"></i>
@@ -90,13 +97,12 @@
             <div class="panel left-panel">
                 <div class="content">
                     <img src="img/logo1.2.png" width="150" height="70" alt="unigine home">
-                    <h3>New here ?</h3>
+                    <h3>Novo aqui ?</h3>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
-                        ex ratione. Aliquid!
+                        cadastre-se agora mesmo e tenha acesso ao melhor dos conteúdos da nossa plataforma!
                     </p>
                     <button class="btn transparent" id="sign-up-btn">
-                        Sign up
+                        Inscrever-se
                     </button>
                 </div>
                 <img src="img/log.svg" class="image" alt="" />
@@ -104,13 +110,12 @@
             <div class="panel right-panel">
                 <div class="content">
                     <img src="img/logo1.2.png" width="150" height="70" alt="unigine home">
-                    <h3>One of us ?</h3>
+                    <h3>Um de nós ?</h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                        laboriosam ad deleniti.
+                        faça o login com as credenciais de acesso!
                     </p>
                     <button class="btn transparent" id="sign-in-btn">
-                        Sign in
+                        login
                     </button>
                 </div>
                 <img src="img/register.svg" class="image" alt="" />
@@ -140,7 +145,7 @@
         .then(credentials => {
             const user = credentials.find(user => user.username === username && user.password === password);
             if (user) {
-                window.location.href = 'home.html'; // Substitua pelo URL da próxima página
+                window.location.href = 'atualização.html'; // Substitua pelo URL da próxima página
             } else {
                 errorMessage.textContent = 'Usuário ou senha incorretos';
                 errorMessage.style.color = 'red'; // Garanta que a cor do texto seja vermelha
