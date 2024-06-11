@@ -117,11 +117,17 @@ input {
 .input-field {
   position: relative;
 }
-
+.esc { 
+  font-size: 10px;
+  right: 10px;
+  padding: 2px;
+}
+.rde {
+  text-decoration: none;
+}
 .input-field .toggle-password {
   position: absolute;
   right: 20px; /* Ajuste este valor conforme necessário */
-  
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
