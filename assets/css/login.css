@@ -114,6 +114,23 @@ input {
 .error {
   color: red;
 }
+.input-field {
+  position: relative;
+}
+
+.input-field .toggle-password {
+  position: absolute;
+  right: 20px; /* Ajuste este valor conforme necessário */
+  
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #acacac;
+}
+
+.input-field .toggle-password.active {
+  color: #333;
+}
 
 
 
